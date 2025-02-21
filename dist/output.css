@@ -1518,6 +1518,9 @@
   .bg-\[url\(\'public\/background-pattern-desktop\.svg\'\)\] {
     background-image: url('public/background-pattern-desktop.svg');
   }
+  .bg-\[url\(\.\/background-pattern-mobile\.svg\)\] {
+    background-image: url(./background-pattern-mobile.svg);
+  }
   .bg-\[url\(\.\/public\/background-pattern-mobile\.svg\)\] {
     background-image: url(./public/background-pattern-mobile.svg);
   }
@@ -2324,6 +2327,11 @@
   .md\:bg-\[url\(\'public\/background-pattern-desktop\.svg\'\)\] {
     @media (width >= 48rem) {
       background-image: url('public/background-pattern-desktop.svg');
+    }
+  }
+  .md\:bg-\[url\(\.\/background-pattern-desktop\.svg\)\] {
+    @media (width >= 48rem) {
+      background-image: url(./background-pattern-desktop.svg);
     }
   }
   .md\:bg-\[url\(\.\/public\/background-pattern-desktop\.svg\)\] {
