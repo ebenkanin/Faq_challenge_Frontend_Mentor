@@ -1515,8 +1515,20 @@
     --tw-gradient-position: in oklab;
     background-image: radial-gradient(var(--tw-gradient-stops));
   }
-  .bg-\[url\(\'\/assets\/background-pattern-mobile\.svg\'\)\] {
-    background-image: url('/assets/background-pattern-mobile.svg');
+  .bg-\[url\(\'public\/background-pattern-desktop\.svg\'\)\] {
+    background-image: url('public/background-pattern-desktop.svg');
+  }
+  .bg-\[url\(\.\/public\/background-pattern-mobile\.svg\)\] {
+    background-image: url(./public/background-pattern-mobile.svg);
+  }
+  .bg-\[url\(\/background-pattern-desktop\.svg\)\] {
+    background-image: url(/background-pattern-desktop.svg);
+  }
+  .bg-\[url\(\/background-pattern-mobile\.svg\)\] {
+    background-image: url(/background-pattern-mobile.svg);
+  }
+  .bg-\[url\(public\/background-pattern-desktop\.svg\)\] {
+    background-image: url(public/background-pattern-desktop.svg);
   }
   .bg-none {
     background-image: none;
@@ -2309,9 +2321,24 @@
       max-width: 600px;
     }
   }
-  .md\:bg-\[url\(\'\/assets\/background-pattern-desktop\.svg\'\)\] {
+  .md\:bg-\[url\(\'public\/background-pattern-desktop\.svg\'\)\] {
     @media (width >= 48rem) {
-      background-image: url('/assets/background-pattern-desktop.svg');
+      background-image: url('public/background-pattern-desktop.svg');
+    }
+  }
+  .md\:bg-\[url\(\.\/public\/background-pattern-desktop\.svg\)\] {
+    @media (width >= 48rem) {
+      background-image: url(./public/background-pattern-desktop.svg);
+    }
+  }
+  .md\:bg-\[url\(\/background-pattern-desktop\.svg\)\] {
+    @media (width >= 48rem) {
+      background-image: url(/background-pattern-desktop.svg);
+    }
+  }
+  .md\:bg-\[url\(public\/background-pattern-desktop\.svg\)\] {
+    @media (width >= 48rem) {
+      background-image: url(public/background-pattern-desktop.svg);
     }
   }
 }
